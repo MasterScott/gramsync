@@ -1,18 +1,31 @@
 # gramsync
 
-Parallelized, simplified command-line support for [rsync](https://linux.die.net/man/1/rsync) commands.
+Parallelized and simplified command-line support for [rsync](https://linux.die.net/man/1/rsync) commands.
 
 ## Purpose
 
-###
+I immediately got lazy after learning how to use rsync to back up files from my personal computer to my lab server.
 
 ## Usage
 
-###
+The first divergence of usage depends on whether you want to back up individual files or an entire directory.
+
+...
 
 ## Installation
 
-###
+- Install the latest version of Python 3
+- Install the latest version of rsync on all of your machines involved in file transfer
+- Clone/pull repo to your machine 
+```
+HTTPS: git clone https://github.com/washedgram/gramsync.git
+SSH:  git clone git@github.com:washedgram/gramsync.git
+```
+- Install package requirements
+```
+$ cd gramsync
+$ pip install -r requirements.txt
+```
 
 ## License
 
