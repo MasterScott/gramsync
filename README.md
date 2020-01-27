@@ -19,7 +19,7 @@ The first divergence of usage depends on whether you want to back up individual 
 - Clone/pull repo to your machine 
 ```
 HTTPS: git clone https://github.com/washedgram/gramsync.git
-SSH:  git clone git@github.com:washedgram/gramsync.git
+SSH:   git clone git@github.com:washedgram/gramsync.git
 ```
 - Install package requirements
 ```
